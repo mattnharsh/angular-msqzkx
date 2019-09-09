@@ -1,5 +1,48 @@
 
 
+.page{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding-bottom: 40px;
+  witdh: 100%;
+  
+  .header{
+    display: none;
+  }
+
+  .largepic{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    height: 300px;
+  }
+
+  .picbox{
+    display: flex;
+    flex-direction: column;
+    
+    .boxpic{
+      border: 2px solid black;
+      border-radius: 15px;
+      margin: 10px;
+      height: 300px;
+    }
+  }
+
+  .textbox{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+  }
+
+
+}
+
+
+
 
 
 .footer {
@@ -58,10 +101,11 @@
       
       
       .boxpic{
+        
         border: 2px solid black;
         margin: 10px;
-        height: 200px;
-        width: auto;
+        height: 230px;
+        width: 230px;
         border-radius: 15px;
       }
     }
