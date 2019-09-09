@@ -3,17 +3,14 @@
 
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 30px;
-    width: 100%;
-    padding: 10px;
-    background-color: #014a72;
-    text-align: center;
-    
-
-    
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  background-color: #014a72;
+  text-align: center;
 }
 
 
@@ -49,14 +46,32 @@
     }
 
     .largepic{
+      border: 2px solid black;
       margin: 10px;
       border-radius: 15px;
-      
     }
 
+    .picbox{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      
+      .boxpic{
+        border: 2px solid black;
+        margin: 10px;
+        height: 200px;
+        width: auto;
+        border-radius: 15px;
+      }
+    }
 
-
-
+    .textbox{
+      border: 2px solid black;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 10px;
+    }
 
 
   }  
